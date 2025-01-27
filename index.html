@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="assets/logo_ramen.png" class="image">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+        integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Ryuzen Bowls Ramen</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header class="navbar" class="text-black lg:text-white">
+        <nav class="max-w-[1920px]">
+            <!-- Mobile nav -->
+            <div id="sticky-menu" class="fixed w-full top-0 left-0 z-50 lg:top-[-100%] duration-500">
+                <div class="flex items-center justify-between h-24 px-5 md:px-10 lg:max-w-4xl lg:max-auto">
+
+                    <div class="flex-1 text-white font-staatliches lg:hidden text-2xl">Ryuzen Bowls</div>
+
+                    <div class="flex-1 grid place-items-center lg:place-items-start">
+                        <img src="assets/logo_ramen.png" alt="logo" class="w-20">
+                    </div>
+
+                    <div id="nav-menu" class="absolute top-0 right-[-100%] min-h-[70vh] w-full px-5 bg-white flex flex-col gap-5 duration-500 ease-out overflow-hidden md:px-10 lg:static lg:min-h-fit lg:bg-transparent lg:w-auto">
+                        <div class="flex items-center justify-between h-24">
+                            <img src="assets/logo_ramen.png" alt="logo_2" class="w-20 lg:hidden">
+
+                            <div class="text-3xl cursor-pointer" id="closeicon">
+                                <i class="ri-close-large-line"></i>
+                            </div>
+                        </div>
+
+                        <ul class="flex flex-col items-start gap-5 lg:flex-row">
+                            <li><a href="#home" class="nav-link active">Home</a></li>
+                            <li><a href="#about" class="nav-link">About</a></li>
+                            <li><a href="#quality" class="nav-link">Quality</a></li>
+                            <li><a href="#product" class="nav-link">Products</a></li>
+
+                        </ul>
+
+                        <!-- socials -->
+                        <div class="flex items-center py-10 lg:hidden">
+                            <p class="font-bold text-black">Follow us <span class="ml-3 mr-5 text-yellow-600">-</span></p>
+
+                            <ul class="nav_icons_mobile flex space-x-4">
+                                <li class="border-2 border-black h-8 w-8 rounded-full grid place-items-center">
+                                    <a href="" class="text-black"><i class="ri-facebook-fill"></i></a>
+                                </li>
+                                <li class="border-2 border-black h-8 w-8 rounded-full grid place-items-center">
+                                    <a href=""  class="text-black"><i class="ri-twitter-x-line"></i></a>
+                                </li>
+                                <li class="border-2 border-black h-8 w-8 rounded-full grid place-items-center">
+                                    <a href=""  class="text-black"><i class="ri-instagram-line"></i></a>
+                                </li>
+                                <li class="border-2 border-black h-8 w-8 rounded-full grid place-items-center">
+                                    <a href=""  class="text-black"><i class="ri-tiktok-fill"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="flex-1 text-3xl text-white cursor-pointer text-right lg:hidden" id="hamburger">
+                        <i class="ri-menu-4-line"></i>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- main -->
+     <main>
+        <section class="bg-black h-screen text-black">Section1</section>
+        <section class="bg-red-50 h-screen text-black">Section2</section>
+
+     </main>
+
+
+    <!-- MAIN.JS -->
+    <script src="main.js   "></script>
+</body>
+
+</html>
