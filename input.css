@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-    @apply text-2xl font-bold font-staatliches;
+    @apply text-2xl font-bold font-staatliches  text-red-800;
 }
 
 h4 {
@@ -86,4 +86,13 @@ h4 {
 /* button */
 .btn_primary {
     @apply relative flex h-14 w-48 bg-amber-800 items-center justify-center text-white uppercase shadow-2xl overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-white before:duration-500 before:ease-out hover:text-black;
+}
+
+/* product item */
+.product_item_img img{
+    @apply cursor-pointer duration-300;
+}
+
+.product_item_img:hover img{
+    @apply rotate-45;
 }
