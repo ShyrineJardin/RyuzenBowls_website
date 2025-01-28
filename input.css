@@ -6,17 +6,32 @@
     --font-staatliches: "Staatliches", serif;
     --font-poppins: Poppins, sans-serif;
 
-    --color-regal-blue: #243c5a;
+    --container-lg: 32rem;
 }
 
 body{
-    @apply font-poppins max-w-[1920px] mx-auto bg-black text-sm text-white;
+    @apply font-poppins max-w-[1920px] mx-auto bg-white text-sm text-black;
+}
+
+h1{
+    @apply text-white font-staatliches text-5xl font-bold md:text-7xl lg:text-[80px] xl:text-[100px];
+}
+
+h2{
+    @apply text-3xl font-bold font-staatliches md:text-5xl;
+}
+
+h3{
+    @apply text-2xl font-bold font-staatliches;
+}
+
+h4{
+    @apply text-base font-bold sm:text-lg font-staatliches;
 }
 
 .nav-link{
-    @apply text-xl font-bold duration-300 text-black;
+    @apply text-xl font-bold duration-300 text-black lg:text-base;
 }
-
 
 .nav-link:hover,
 .active{
@@ -31,10 +46,20 @@ body{
     @apply text-red-800 duration-300;
 }
 
-.nav_icons li:hover{
+
+.nav_icon li:hover{
     @apply border-white duration-300;
 }
 
 .nav_icons li:hover a{
     @apply text-white duration-300;
+}
+
+.nav-link-desk{
+    @apply text-xl font-bold duration-300 text-white lg:text-base;
+}
+
+.nav-link-desk:hover,
+.active{
+    @apply text-red-800;
 }
