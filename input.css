@@ -37,7 +37,7 @@ h1 {
 }
 
 h2 {
-    @apply text-3xl text-yellow-400 font-bold font-staatliches md:text-5xl;
+    @apply text-3xl text-yellow-400 font-bold font-staatliches xl:text-5xl;
 }
 
 h3 {
@@ -45,7 +45,7 @@ h3 {
 }
 
 h4 {
-    @apply text-base font-bold sm:text-lg font-staatliches;
+    @apply text-base text-red-800 font-bold sm:text-lg font-staatliches;
 }
 
 .nav-link {
@@ -54,7 +54,7 @@ h4 {
 
 .nav-link:hover,
 .active {
-    @apply text-red-800;
+    @apply text-red-800 lg:text-base;
 }
 
 .nav_icons_mobile li:hover {
