@@ -5,9 +5,24 @@
 @theme {
     --font-staatliches: "Staatliches", serif;
     --font-poppins: Poppins, sans-serif;
-
-    --container-lg: 32rem;
 }
+
+@utility container {
+    padding-inline: 10px;
+    margin-inline: auto;
+    
+    @variant sm {
+      padding-inline: 20px;
+    }
+    
+    @variant lg {
+      padding-inline: 80px;
+    }
+    
+    @variant xl {
+      padding-inline: 120px;
+    }
+  }
 
 body{
     @apply font-poppins max-w-[1920px] mx-auto bg-white text-sm text-black;
@@ -18,7 +33,7 @@ h1{
 }
 
 h2{
-    @apply text-3xl font-bold font-staatliches md:text-5xl;
+    @apply text-3xl text-yellow-400 font-bold font-staatliches md:text-5xl;
 }
 
 h3{
@@ -30,7 +45,7 @@ h4{
 }
 
 .nav-link{
-    @apply text-xl font-bold duration-300 text-black lg:text-base;
+    @apply text-xl font-bold duration-300 text-black lg:text-white lg:text-base;
 }
 
 .nav-link:hover,
