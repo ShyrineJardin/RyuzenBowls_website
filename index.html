@@ -55,20 +55,20 @@
 
                             <ul class="nav_icons_mobile flex space-x-4">
                                 <li
-                                    class="border-2 border-black h-8 w-8 rounded-full grid place-items-center lg:hidden">
-                                    <a href="" class="text-black"><i class="ri-facebook-fill"></i></a>
+                                    class="text-xl md:text-2xl">
+                                    <a href="" class="text-black"><i class="ri-facebook-fill  lg:hidden"></i></a>
                                 </li>
                                 <li
-                                    class="border-2 border-black h-8 w-8 rounded-full grid place-items-center lg:hidden">
-                                    <a href="" class="text-black"><i class="ri-twitter-x-line"></i></a>
+                                    class="text-xl md:text-2xl">
+                                    <a href="" class="text-black"><i class="ri-twitter-x-line  lg:hidden"></i></a>
                                 </li>
                                 <li
-                                    class="border-2 border-black h-8 w-8 rounded-full grid place-items-center lg:hidden">
-                                    <a href="" class="text-black"><i class="ri-instagram-line"></i></a>
+                                    class="text-xl md:text-2xl">
+                                    <a href="" class="text-black"><i class="ri-instagram-line  lg:hidden"></i></a>
                                 </li>
                                 <li
-                                    class="border-2 border-black h-8 w-8 rounded-full grid place-items-center lg:hidden">
-                                    <a href="" class="text-black"><i class="ri-tiktok-fill"></i></a>
+                                    class="text-xl md:text-2xl">
+                                    <a href="" class="text-black"><i class="ri-tiktok-fill  lg:hidden"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -248,67 +248,127 @@
 
         </section>
 
-<!-- Product -->
-<section id="product" class="relative">
-    <div class="container relative z-10">
-        <div class="text-center">
-            <h2>Our Ramen</h2>
-        </div>
-
-        <div class="mt-20 grid grid-cols-1 gap-14 md:grid-cols-2 xl:grid-cols-4">
-            <!-- ramen-bowl 1 -->
-            <div class="product_item flex flex-col gap-3 items-center justify-center text-center">
-                <div class="product_item_img relative w-60 h-60 overflow-hidden">
-                    <img src="assets/Tonkotsu.png" alt="ramen_product" 
-                         class="rounded-full w-full h-full object-cover object-center">
+        <!-- Product -->
+        <section id="product" class="relative">
+            <div class="container relative z-10">
+                <div class="text-center">
+                    <h2>Our Ramen</h2>
                 </div>
-                <h3>Tonkotsu Ramen</h3>
-                <p>A creamy, rich pork bone broth that's simmered for hours, served with thin noodles,
-                    tender chashu pork, soft-boiled eggs, and green onions. Perfect for those who love a
-                    bold, hearty flavor.</p>
-            </div>
 
-            <!-- ramen-bowl 2 -->
-            <div class="product_item flex flex-col gap-3 items-center justify-center text-center">
-                <div class="product_item_img relative w-60 h-60 overflow-hidden">
-                    <img src="assets/Shoyu.png" alt="ramen_product" 
-                         class="rounded-full w-full h-full object-cover object-center">
+                <div class="mt-20 grid grid-cols-1 gap-14 md:grid-cols-2 xl:grid-cols-4">
+                    <!-- ramen-bowl 1 -->
+                    <div class="product_item flex flex-col gap-3 items-center justify-center text-center">
+                        <div class="product_item_img relative w-60 h-60 overflow-hidden">
+                            <img src="assets/Tonkotsu.png" alt="ramen_product" 
+                                class="rounded-full w-full h-full object-cover object-center">
+                        </div>
+                        <h3>Tonkotsu Ramen</h3>
+                        <p>A creamy, rich pork bone broth that's simmered for hours, served with thin noodles,
+                            tender chashu pork, soft-boiled eggs, and green onions. Perfect for those who love a
+                            bold, hearty flavor.</p>
+                    </div>
+
+                    <!-- ramen-bowl 2 -->
+                    <div class="product_item flex flex-col gap-3 items-center justify-center text-center">
+                        <div class="product_item_img relative w-60 h-60 overflow-hidden">
+                            <img src="assets/Shoyu.png" alt="ramen_product" 
+                                class="rounded-full w-full h-full object-cover object-center">
+                        </div>
+                        <h3>Shoyu Ramen</h3>
+                        <p>A soy sauce-based ramen with a clear, savory broth. It's light yet flavorful, topped
+                            with bamboo shoots, nori, sliced pork, and a boiled egg. A classic choice for any
+                            ramen lover.</p>
+                    </div>
+
+                    <!-- ramen-bowl 3 -->
+                    <div class="product_item flex flex-col gap-3 items-center justify-center text-center">
+                        <div class="product_item_img relative w-60 h-60 overflow-hidden">
+                            <img src="assets/Seafood_Miso.png" alt="ramen_product" 
+                                class="rounded-full w-full h-full object-cover object-center">
+                        </div>
+                        <h3>Seafood Miso Ramen</h3>
+                        <p>A rich miso-based broth paired with seafood like shrimp, scallops, squid, and clams.
+                            Topped with bean sprouts, green onions, and a drizzle of sesame oil for a satisfying
+                            umami-packed experience.</p>
+                    </div>
+
+                    <!-- ramen-bowl 4 -->
+                    <div class="product_item flex flex-col gap-3 items-center justify-center text-center">
+                        <div class="product_item_img relative w-60 h-60 overflow-hidden">
+                            <img src="assets/Shio.png" alt="ramen_product" 
+                                class="rounded-full w-full h-full object-cover object-center">
+                        </div>
+                        <h3>Shio Ramen</h3>
+                        <p>A delicate and clear salt-based broth, offering a light, refreshing taste. Common
+                            toppings include chicken, seaweed, pickled plums, and green onions, making it a
+                            great option for a milder flavor profile.</p>
+                    </div>
                 </div>
-                <h3>Shoyu Ramen</h3>
-                <p>A soy sauce-based ramen with a clear, savory broth. It's light yet flavorful, topped
-                    with bamboo shoots, nori, sliced pork, and a boiled egg. A classic choice for any
-                    ramen lover.</p>
             </div>
-
-            <!-- ramen-bowl 3 -->
-            <div class="product_item flex flex-col gap-3 items-center justify-center text-center">
-                <div class="product_item_img relative w-60 h-60 overflow-hidden">
-                    <img src="assets/Seafood_Miso.png" alt="ramen_product" 
-                         class="rounded-full w-full h-full object-cover object-center">
-                </div>
-                <h3>Seafood Miso Ramen</h3>
-                <p>A rich miso-based broth paired with seafood like shrimp, scallops, squid, and clams.
-                    Topped with bean sprouts, green onions, and a drizzle of sesame oil for a satisfying
-                    umami-packed experience.</p>
-            </div>
-
-            <!-- ramen-bowl 4 -->
-            <div class="product_item flex flex-col gap-3 items-center justify-center text-center">
-                <div class="product_item_img relative w-60 h-60 overflow-hidden">
-                    <img src="assets/Shio.png" alt="ramen_product" 
-                         class="rounded-full w-full h-full object-cover object-center">
-                </div>
-                <h3>Shio Ramen</h3>
-                <p>A delicate and clear salt-based broth, offering a light, refreshing taste. Common
-                    toppings include chicken, seaweed, pickled plums, and green onions, making it a
-                    great option for a milder flavor profile.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
+        </section>
 
     </main>
+
+    <footer class="bg-black">
+        <div class="container py-20 flex flex-col gap-20 max-w-sm md:py-28 lg:flex-row lg:max-w-full">
+            <div class="flex-1 flex flex-col items-center gap-8 text-center">
+                <img src="assets/logo_ramen.png" alt="logo" class="w-24 mx-auto md:w-28">
+                <p class="text-white lg:max-w-xs lg:text-start">Ryuzen Bowls: Serving Authentic Japanese Ramen, Crafted with Tradition, Flavor, and Heart in Every Bowl.</p>
+
+                <ul class="nav_icons_mobile flex space-x-4">
+                    <li
+                        class="text-xl md:text-2xl">
+                        <a href="" class="text-red-800 hover:text-white duration-300"><i class="ri-facebook-fill"></i></a>
+                    </li>
+                    <li
+                        class="text-xl md:text-2xl">
+                        <a href="" class="text-red-800 hover:text-white duration-300"><i class="ri-twitter-x-line"></i></a>
+                    </li>
+                    <li
+                        class="text-xl md:text-2xl">
+                        <a href="" class="text-red-800 hover:text-white duration-300"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li
+                        class="text-xl md:text-2xl">
+                        <a href="" class="text-red-800 hover:text-white duration-300"><i class="ri-tiktok-fill"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="flex-1 text-white flex flex-col gap-8 lg:pl-[3%] xl:pl-[6%]">
+                <div class="text-2xl font-bold font-staatliches border-b-2 border-red-800 self-center lg:self-start">Contact Info</div>
+
+                <div class="flex text-start  gap-3">
+                    <i class="ri-map-pin-fill  text-2xl "></i>
+                    <div>
+                        <p class="font-bold">Location</p>
+                        <p>Manuela Subd. Pamplona 3, Las Pinas City</p>
+                    </div>
+                </div>
+
+                <div class="flex text-start gap-3">
+                    <i class="ri-calendar-schedule-fill text-2xl"></i>
+                    <div>
+                        <p class="font-bold">Open Everyday</p>
+                        <p>11am-2:30pm & 5pm-9pm</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-1 hidden sm:flex flex-col text-white gap-8">
+                <div class="text-2xl font-bold font-staatliches border-b-2 border-red-800 self-center lg:self-start">Subscribe</div>
+                <div class="flex lg:text-start self-center  gap-3">
+                    <input type="email" placeholder="Email" class="p-5 rounded-l-full outline-none bg-white text-gray-700">
+                    <button class="inline-block border border-red-800 text-white bg-red-800 px-14 py-4 rounded-full uppercase duration-300 -ml-14">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="py-5 border-t border-white/30">
+            <p class="text-sm text-center text-white">Copyright © 2025 RyuzenBowls. All rights reserved.</p>
+        </div>
+    </footer>
 
 
     <!-- MAIN.JS -->
