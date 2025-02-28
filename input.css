@@ -24,6 +24,7 @@
     }
 }
 
+
 body {
     @apply font-poppins max-w-[1920px] mx-auto bg-white text-sm text-black;
 }
@@ -49,12 +50,12 @@ h4 {
 }
 
 .nav-link {
-    @apply text-xl font-bold duration-300 text-black lg:text-white lg:text-base;
+    @apply font-bold duration-300 text-black lg:text-white text-base;
 }
 
 .nav-link:hover,
 .active {
-    @apply text-red-800 lg:text-base;
+    @apply text-red-800;
 }
 
 .nav_icons_mobile li:hover {

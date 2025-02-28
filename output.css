@@ -599,6 +599,9 @@
   .right-\[0\] {
     right: 0;
   }
+  .right-\[100\%\] {
+    right: 100%;
+  }
   .bottom-16 {
     bottom: calc(var(--spacing) * 16);
   }
@@ -754,14 +757,8 @@
   .-mt-10 {
     margin-top: calc(var(--spacing) * -10);
   }
-  .mt-0 {
-    margin-top: calc(var(--spacing) * 0);
-  }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
-  }
-  .mt-10 {
-    margin-top: calc(var(--spacing) * 10);
   }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
@@ -2800,27 +2797,19 @@ h4 {
   }
 }
 .nav-link {
-  font-size: var(--text-xl);
-  line-height: var(--tw-leading, var(--text-xl--line-height));
+  font-size: var(--text-base);
+  line-height: var(--tw-leading, var(--text-base--line-height));
   --tw-font-weight: var(--font-weight-bold);
   font-weight: var(--font-weight-bold);
   color: var(--color-black);
   --tw-duration: 300ms;
   transition-duration: 300ms;
   @media (width >= 64rem) {
-    font-size: var(--text-base);
-    line-height: var(--tw-leading, var(--text-base--line-height));
-  }
-  @media (width >= 64rem) {
     color: var(--color-white);
   }
 }
 .nav-link:hover, .active {
   color: var(--color-red-800);
-  @media (width >= 64rem) {
-    font-size: var(--text-base);
-    line-height: var(--tw-leading, var(--text-base--line-height));
-  }
 }
 .nav_icons_mobile li:hover {
   border-color: var(--color-red-800);
